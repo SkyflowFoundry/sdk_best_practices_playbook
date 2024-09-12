@@ -8,9 +8,8 @@ import RevealElements from "./components/RevealElements";
 const App = () => {
   const [showSkyflowElements, setShowSkyflowElements] = useState(false);
 
-  // Function to toggle visibility
   const handleButtonClick = () => {
-    setShowSkyflowElements(!showSkyflowElements);
+    setShowSkyflowElements(true);
   };
 
   return (
@@ -34,7 +33,6 @@ const App = () => {
         <RevealElements />
       </div>
     </div>
-      {/* {showSkyflowElements && SkyflowElements()} */}
     </div>
   );
 };
